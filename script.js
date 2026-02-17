@@ -1,5 +1,5 @@
 // 1. SET UP THE BRAIN (Configuration)
-const API_KEY = "AIzaSyDwNvcNus1UmvagFQ0QmUxo9NaVek-YKFk";
+const API_KEY = "AIzaSyAjDol9VELjY1KBiJ19MugAPkiKNvXzxe0";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
 // 2. Define the map between keywords and filenames
@@ -124,6 +124,7 @@ async function sendMessage() {
     // FIX: Pass the detected emotion image to the factory
     addMessage(aiReply, "bot", currentEmotionUrl);
 }
+
 
 
 
